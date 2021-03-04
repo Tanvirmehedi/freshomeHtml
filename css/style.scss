@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+/* font-family: Comfortaa, cursive; */
+/* Basic css */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: Comfortaa;
+}
+
+/* NavBar */
+nav {
+  position: absolute !important;
+  z-index: 1000;
+  width: 100%;
+  background: #40404038;
+}
+
+nav .nav-link {
+  margin-right: 3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.call-to-btn {
+  border: 1px solid #6f6f6f;
+  margin-left: 6rem;
+}
+
+#banner {
+  background-image: url(../image/coverimage.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 12rem 0 20rem 0;
+  z-index: 99;
+}
+
+// #banner::after {
+//   position: absolute;
+//   content: "";
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   z-index: -1;
+//   background: #0000003b;
+// }
+
+.banner-contant {
+  width: 40%;
+  -webkit-box-shadow: 0px 2px 16px 3px rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 2px 16px 3px rgba(255, 255, 255, 0.95);
+  height: auto;
+  background: #00000081;
+  padding: 2%;
+  border-radius: 0.5rem;
+  position: relative;
+  z-index: 1000;
+}
+
+.banner-heading {
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+.banner-heading span {
+  color: #82bd3e;
+}
+
+.banner-subtitle {
+  color: #fff;
+  position: relative;
+  font-family: serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-subtitle::after {
+  content: "";
+  width: 70%;
+  height: 1px;
+  position: absolute;
+  background: #aaaaaa;
+  top: 1.4rem;
+  left: 0;
+}
+
+.banner-addres {
+  color: #fff;
+  font-family: serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-work {
+  color: #fff;
+  font-family: serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-fresh {
+  color: #fff;
+  font-family: serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #fff;
+  background: #82bd3e;
+  margin-right: 1rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+.btn-fresh:hover {
+  color: #82bd3e;
+  background: transparent;
+  transition: all 0.5s linear;
+}
+
+/* End header css */
+
+#branding-freshome {
+  padding: 4rem 0 4rem 0;
+
+  .branding-contant {
+    width: 70%;
+    height: auto;
+    -webkit-box-shadow: 0px 2px 16px 3px rgba(0, 0, 0, 0.95);
+    box-shadow: 0px 2px 16px 3px rgba(0, 0, 0, 0.95);
+    padding: 2rem;
+    border-radius: 3rem;
+    margin: 0 auto;
+    .branding-headlin {
+      border-left: 3px solid #82bd3e;
+      padding-left: 0.8rem;
+      margin: 1rem 0;
+      span {
+        display: block;
+        font-size: 1rem;
+        font-family: cursive;
+        font-weight: 800;
+        padding-bottom: 2px;
+        color: #484947;
+      }
+    }
+    .branding-text {
+      p {
+        font-weight: lighter;
+        font-family: sans-serif;
+        font-weight: 400;
+        line-height: 2rem;
+      }
+    }
+    .branding-title {
+      margin-bottom: 3%;
+
+      .branding-logo {
+        display: inline-block;
+
+        img {
+          width: 15%;
+        }
+      }
+
+      .branding-title-text {
+        display: inline-block;
+        color: #82bd3e;
+        font-family: Comfortaa, serif;
+        font-weight: 700;
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+// ===========================End branding css==================
+
+#project {
+  padding: 4rem 0 3rem 0;
+}
